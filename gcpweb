@@ -1,0 +1,32 @@
+or Compute Engine:
+Region: Any (e.g., us-central1)
+
+Machine type: e2-medium (2 vCPU, 4 GB RAM)
+
+Instances: 1
+
+Hours: 730 (full month)
+
+Add to estimate
+
+✅ For Cloud SQL:
+DB engine: MySQL
+
+Machine type: db-f1-micro
+
+Storage: 10 GB SSD
+
+Add to estimate
+
+✅ For Cloud Storage:
+Class: Standard
+
+Storage: 50 GB
+
+Add to estimate
+
+✅ For Load Balancer:
+Requests per month: 100,000
+
+Add to estimate
+
