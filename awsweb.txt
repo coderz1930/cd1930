@@ -79,7 +79,13 @@ Create a file named `index.html` on your local machine with the following conten
 1. Go back to the **Properties > Static Website Hosting** section.
 2. Copy the **Website endpoint** URL.
 3. Open it in your browser — you should see your HTML page live! 🎉
+Lambda code
+def lambda_handler(event, context):
+    return {
+        'statusCode': 200,
+        'headers': {
+            'Content-Type': 'text/html'
+        },
+        'body': '<h1>Hello from Lambda!</h1><p>This was triggered by API Gateway.</p>'
+    }
 
----
-
-Let me know if you want to add CSS, JavaScript, or more pages too!
